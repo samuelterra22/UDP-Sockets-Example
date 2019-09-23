@@ -2,7 +2,7 @@
 
 In UDP, the client does not form a connection with the server like in TCP and instead just sends a datagram. Similarly, the server need not accept a connection and just waits for datagrams to arrive. Datagrams upon arrival contain the address of sender which the server uses to send data to the correct client.
 
-![](images/udpfuncdiag.png)
+![](socket.png)
 
 **UDP Server:**
 
